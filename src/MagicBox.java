@@ -12,8 +12,8 @@ public class MagicBox <T> {
     }
 
     public boolean add(T item) {
-        for (int i = 0; i < items.length; i++) { //заполняем массив
-            if (items[i] == null) {
+       for (int i = 0; i < items.length; i++) { //заполняем массив
+            if (items[i] == null){
                 items[i] = item;
                 return true;
             }
